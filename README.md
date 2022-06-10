@@ -15,9 +15,10 @@ you can pull the below structure from github
 9. python manage.py startapp webApp
 
 
-for database connection:
-python manage.py makemigrations
-python manage.py migrate
 
-to run app python manage.py runserver
+for database connection:
+1. python manage.py makemigrations
+2. python manage.py migrate
+
+to run app: python manage.py runserver
 
