@@ -22,5 +22,5 @@ from django.urls import path, include
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^task/', views.taskList.as_view()),
-    path('api/', include('api_app.urls')),
+    
 ]
