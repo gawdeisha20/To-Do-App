@@ -20,5 +20,5 @@ for database connection:
 1. python manage.py makemigrations
 2. python manage.py migrate
 
-to run app: python manage.py runserver
+to run app: python manage.py run
 
